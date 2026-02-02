@@ -28,7 +28,11 @@ Fog Computing es una capa intermedia entre Edge y Cloud. Permite procesar, almac
 Mist Computing es el nivel más cercano al hardware. El procesamiento se realiza directamente en sensores o microcontroladores con recursos muy limitados. Se centra en tareas simples y reacciones inmediatas.
 
 **Esquema (ASCII o Mermaid recomendado):**
-...
+graph LR
+    Mist[Mist<br/>Sensores] --> Edge[Edge<br/>Gateway local]
+    Edge --> Fog[Fog<br/>Red local]
+    Fog --> Cloud[Cloud<br/>Centro de datos]
+
 
 **Zonas de aplicación (qué hace cada capa):**
 - Mist → Respuestas inmediatas en sensores (ej. activar una alarma).
