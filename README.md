@@ -30,8 +30,11 @@ Mist Computing es el nivel más cercano al hardware. El procesamiento se realiza
 **Esquema (ASCII o Mermaid recomendado):**
 
 graph LR
+
     Mist[Mist<br/>Sensores] --> Edge[Edge<br/>Gateway local]
+    
     Edge --> Fog[Fog<br/>Red local]
+    
     Fog --> Cloud[Cloud<br/>Centro de datos]
 
 
