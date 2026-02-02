@@ -2,14 +2,17 @@
 
 ## 🅲 Tarea C — Edge Computing y relación con Cloud
 **Definición (3–5 líneas):**
+
 Edge Computing es un modelo de computación en el que el procesamiento de datos se realiza lo más cerca posible del lugar donde se generan (sensores, dispositivos IoT, máquinas, etc.).
 Su objetivo principal es reducir la latencia, el consumo de ancho de banda y la dependencia constante de la nube.
 Permite respuestas más rápidas y eficientes en tiempo real.
 
 **Relación Edge ↔ Cloud (5–8 líneas):**
+
 Edge y Cloud no se sustituyen, sino que se complementan. El Edge se encarga de procesar datos críticos o inmediatos cerca del origen, mientras que la Cloud se utiliza para almacenamiento masivo, análisis avanzado y gestión centralizada. Los datos filtrados o resumidos en el Edge se envían a la Cloud para su análisis a largo plazo. De esta forma se optimizan recursos, se mejora el rendimiento y se reduce el tráfico de red.
 
 **Ejemplo real:**
+
 En una fábrica inteligente, los sensores de las máquinas detectan fallos en tiempo real usando Edge Computing. Solo los datos relevantes se envían a la Cloud para análisis históricos, mantenimiento predictivo y generación de informes.
 
 **Fuentes oficiales (mín. 2):**
@@ -37,19 +40,27 @@ Mist Computing es el nivel más cercano al hardware. El procesamiento se realiza
 Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
 
 1) Ventaja: Escalabilidad
+   
    Explicación: La Cloud permite aumentar o reducir recursos según la demanda sin cambiar la infraestructura física.
+   
    Ejemplo: Una app IoT que recibe más usuarios puede aumentar servidores automáticamente.
 
-2) Ventaja: Acceso remoto
+3) Ventaja: Acceso remoto
+   
    Explicación: Los datos y servicios están disponibles desde cualquier lugar con conexión a Internet.
+   
    Ejemplo: Un administrador puede monitorizar sensores desde su portátil o móvil.
    
-3) Ventaja: Almacenamiento masivo
+4) Ventaja: Almacenamiento masivo
+   
    Explicación: La nube permite guardar grandes volúmenes de datos de forma segura y organizada.
+   
    Ejemplo: Guardar históricos de datos de sensores durante años.
    
-4) Ventaja: Alta disponibilidad
+5) Ventaja: Alta disponibilidad
+   
    Explicación: Los servicios Cloud suelen tener redundancia y copias de seguridad automáticas.
+   
    Ejemplo: Si un servidor falla, otro sigue funcionando sin interrupción.
 
 **Fuente oficial (mín. 1):**
@@ -57,6 +68,7 @@ Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
   
 ## 📚 Fuentes (enlaces oficiales)
 (Recopila aquí todos los enlaces oficiales usados)
+
 AWS – Edge Computing
 https://aws.amazon.com/es/edge/
 
